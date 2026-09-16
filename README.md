@@ -306,6 +306,117 @@ const arunish: Developer = {
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:4C1D95,100:22D3EE&height=90&text=TranscriptIQ&fontSize=26&fontColor=FFFFFF&fontAlignY=55" width="100%" />
+
+<sub><i>"Turn long-form audio into summaries you can question."</i></sub>
+
+<img src="https://img.shields.io/badge/FINAL--YEAR_CAPSTONE-F59E0B?style=flat-square&labelColor=0F172A" /><br>
+<img src="https://img.shields.io/badge/-Python-0F172A?style=flat-square&logo=python&logoColor=22D3EE" />
+<img src="https://img.shields.io/badge/-Whisper_ASR-0F172A?style=flat-square&logo=openai&logoColor=A78BFA" />
+<img src="https://img.shields.io/badge/-BART_%2F_T5-0F172A?style=flat-square&logo=huggingface&logoColor=F59E0B" />
+<img src="https://img.shields.io/badge/-FAISS-0F172A?style=flat-square" />
+<img src="https://img.shields.io/badge/-Llama_3.3_70B-0F172A?style=flat-square&logo=meta&logoColor=22D3EE" />
+<img src="https://img.shields.io/badge/-Streamlit-0F172A?style=flat-square&logo=streamlit&logoColor=F472B6" />
+
+</div>
+
+▸ <b>Audio/Web Knowledge Extraction &amp; Summarization System</b><br>
+▸ Built an end-to-end RAG pipeline: Whisper ASR → BART/T5 summarization → FAISS semantic search → Llama 3.3 70B<br>
+▸ Transcribes, summarizes and enables context-aware QnA over long-form audio content<br>
+▸ Delivered through an interactive Streamlit interface
+
+<div align="center">
+<!-- Replace with the real repo URL -->
+<a href="https://github.com/arunishsinghal"><img src="https://img.shields.io/badge/View_Repo_%E2%86%92-7C3AED?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:7F1D1D,100:DB2777&height=90&text=Malware%20Static%20Analysis%20Toolkit&fontSize=26&fontColor=FFFFFF&fontAlignY=55" width="100%" />
+
+<sub><i>"Dissect Windows binaries without ever running them."</i></sub>
+
+<img src="https://img.shields.io/badge/-Python-0F172A?style=flat-square&logo=python&logoColor=22D3EE" />
+<img src="https://img.shields.io/badge/-pefile-0F172A?style=flat-square" />
+<img src="https://img.shields.io/badge/-YARA-0F172A?style=flat-square" />
+<img src="https://img.shields.io/badge/-Streamlit-0F172A?style=flat-square&logo=streamlit&logoColor=F472B6" />
+
+</div>
+
+▸ Static analyzer for Windows PE files: header parsing, import &amp; suspicious-API detection, string extraction, Shannon entropy and YARA matching, with <b>no sample execution</b><br>
+▸ Designed a transparent, itemized <b>weighted triage score</b> with PDF/HTML reports via a Streamlit UI<br>
+▸ Fixed API-matching logic that was silently missing Unicode/Ex import variants
+
+<div align="center">
+<!-- Replace with the real repo URL -->
+<a href="https://github.com/arunishsinghal"><img src="https://img.shields.io/badge/View_Repo_%E2%86%92-DB2777?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0F172A,100:D97706&height=90&text=Web%20Vulnerability%20Scanner&fontSize=26&fontColor=FFFFFF&fontAlignY=55" width="100%" />
+
+<sub><i>"Crawl, probe, score, report — only where authorized."</i></sub>
+
+<img src="https://img.shields.io/badge/-Python-0F172A?style=flat-square&logo=python&logoColor=22D3EE" />
+<img src="https://img.shields.io/badge/-Requests-0F172A?style=flat-square" />
+<img src="https://img.shields.io/badge/-BeautifulSoup-0F172A?style=flat-square" />
+<img src="https://img.shields.io/badge/-Jinja2-0F172A?style=flat-square&logo=jinja&logoColor=F59E0B" />
+<img src="https://img.shields.io/badge/-Streamlit-0F172A?style=flat-square&logo=streamlit&logoColor=F472B6" />
+
+</div>
+
+▸ Modular scanner with a depth-limited <b>BFS crawler</b> and <b>6 pluggable checks</b>: SQLi, reflected XSS, open redirect, security headers, cookie flags, sensitive file exposure<br>
+▸ Backed by a custom risk-scoring engine<br>
+▸ HTML/JSON/PDF reports through a CLI with an <b>authorization gate</b> and a Streamlit UI<br>
+▸ Validated end-to-end against a purpose-built vulnerable test server: <b>12 findings</b> across all severity tiers
+
+<div align="center">
+<!-- Replace with the real repo URL -->
+<a href="https://github.com/arunishsinghal"><img src="https://img.shields.io/badge/View_Repo_%E2%86%92-D97706?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:064E3B,100:0891B2&height=90&text=Image%20Tamper%20Detection&fontSize=26&fontColor=FFFFFF&fontAlignY=55" width="100%" />
+
+<sub><i>"Proves an image is untouched, and shows exactly where it isn't."</i></sub>
+
+<img src="https://img.shields.io/badge/-Python-0F172A?style=flat-square&logo=python&logoColor=22D3EE" />
+<img src="https://img.shields.io/badge/-Streamlit-0F172A?style=flat-square&logo=streamlit&logoColor=F472B6" />
+<img src="https://img.shields.io/badge/-OpenCV-0F172A?style=flat-square&logo=opencv&logoColor=A78BFA" />
+<img src="https://img.shields.io/badge/-NumPy-0F172A?style=flat-square&logo=numpy&logoColor=22D3EE" />
+
+</div>
+
+▸ <b>Secure Image Authentication &amp; Tamper Detection System</b><br>
+▸ Self-embedding fragile watermarking (block-wise Wong scheme, keyed <b>HMAC-SHA256</b> with <b>PBKDF2</b> key derivation) that detects forgery and localizes tampered regions at block level, <b>no reference image needed</b><br>
+▸ Automated benchmarking of PSNR, SSIM and tamper-localization precision/recall across simulated attacks<br>
+▸ Fixed a morphological-kernel bug that was shifting tamper masks and cutting localization precision
+
+<div align="center">
+<!-- Replace with the real repo URL -->
+<a href="https://github.com/arunishsinghal"><img src="https://img.shields.io/badge/View_Repo_%E2%86%92-0891B2?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:4C1D95,100:7C3AED&height=90&text=Spotify%20AI%20Agent&fontSize=28&fontColor=FFFFFF&fontAlignY=55" width="100%" />
 
 <sub><i>"Why scroll through playlists when AI can read your mood?"</i></sub>

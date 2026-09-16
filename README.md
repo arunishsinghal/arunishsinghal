@@ -310,7 +310,7 @@ const arunish: Developer = {
 
 <sub><i>"Turn long-form audio into summaries you can question."</i></sub>
 
-<img src="https://img.shields.io/badge/FINAL--YEAR_CAPSTONE-F59E0B?style=flat-square&labelColor=0F172A" /><br>
+
 <img src="https://img.shields.io/badge/-Python-0F172A?style=flat-square&logo=python&logoColor=22D3EE" />
 <img src="https://img.shields.io/badge/-Whisper_ASR-0F172A?style=flat-square&logo=openai&logoColor=A78BFA" />
 <img src="https://img.shields.io/badge/-BART_%2F_T5-0F172A?style=flat-square&logo=huggingface&logoColor=F59E0B" />
